@@ -3,6 +3,8 @@ import Search from "./components/search";
 import Landing from "./components/landing";
 import Buttonav from "./components/buttonav";
 import Card from "./components/card";
+import Intro from "./components/intro";
+import Membership from "./components/membership";
 
 export default function Home() {
 	return (
@@ -11,6 +13,8 @@ export default function Home() {
 			<Landing />
 			<Buttonav />
 			<Card />
+			<Intro />
+			{/* <Membership /> */}
 		</main>
 	);
 }
