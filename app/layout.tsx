@@ -18,10 +18,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={pop.className}>
-				{children}
-				<Search />
-			</body>
+			<body className={pop.className}>{children}</body>
 		</html>
 	);
 }
