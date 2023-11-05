@@ -15,8 +15,8 @@ const Card = () => {
 				/>
 
 				<p>
-					<span className="font-bold line-clamp-1">Viratousa</span> is creating
-					celo tution videos on YouTube and other.
+					<span className="font-bold">Viratousa</span> is creating celo tution
+					videos on YouTube and other.
 				</p>
 
 				<div className="flex justify-center items-center text-center gap-5">
