@@ -6,7 +6,7 @@ const Card = () => {
 		<div className="grid  grid-cols-4  mb-10 ">
 			<div className="flex justify-center items-center text-center flex-col  rounded-md max-w-[300px] gap-5 p-5 cursor-pointer">
 				<Image
-					src="/assets/ai2.jpg"
+					src="/assets/arturopog.png"
 					alt="user"
 					priority
 					width={200}
@@ -33,7 +33,7 @@ const Card = () => {
 			</div>
 			<div className="flex justify-center items-center text-center flex-col  rounded-md max-w-[300px] gap-5 p-5 cursor-pointer">
 				<Image
-					src="/assets/ai1.jpg"
+					src="/assets/arturo2.jpg"
 					alt="user"
 					priority
 					width={200}
