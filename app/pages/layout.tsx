@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
-import "./globals.css";
-import Search from "./components/search";
+// import "./globals.css";
+import Search from "../components/search";
+import Bottomnavbar from "../components/bottomnavbar";
 
 const inter = Inter({ subsets: ["latin"] });
 const pop = Poppins({ weight: ["400", "600"], subsets: ["latin"] });
@@ -19,8 +20,9 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body className={pop.className}>
-				{children}
 				{/* <Search /> */}
+				{children}
+				{/* <Bottomnavbar /> */}
 			</body>
 		</html>
 	);
