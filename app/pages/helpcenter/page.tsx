@@ -57,6 +57,189 @@ const Page = () => {
 					/>
 				</div>
 			</section>
+			<section className="w-full flex flex-col justify-center items-center text-start gap-10">
+				<div className="w-[900px] border flex  gap-10 px-10 py-5 rounded-md hover:border-black ease-in-out duration-300">
+					<Image
+						src="/assets/lightbulb.png"
+						alt="logo"
+						width={50}
+						height={50}
+						priority
+						className="object-contain cursor-pointer"
+					/>
+					<div className="flex flex-col gap-2 tracking-wider leading-relaxed">
+						<p className="font-semibold">New on Buy Me a Coffee? Start here</p>
+						<p className="">Everything you need to know to get started.</p>
+						<div className="flex gap-2 justify-center items-center text-center">
+							<div className="flex -space-x-4">
+								<Image
+									src="/assets/arturopog.png"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+								<Image
+									src="/assets/arturo2.jpg"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+								<Image
+									src="/assets/ai1.jpg"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+							</div>
+
+							<p className="text-gray-400">By Virtousa and 2 others</p>
+							<p className="font-bold text-gray-400">.</p>
+							<p className="text-gray-400">10 articles</p>
+						</div>
+					</div>
+				</div>
+				<div className="w-[900px] border flex  gap-10 px-10 py-5 rounded-md hover:border-black ease-in-out duration-300">
+					<Image
+						src="/assets/arrow.png"
+						alt="logo"
+						width={50}
+						height={50}
+						priority
+						className="object-contain cursor-pointer"
+					/>
+					<div className="flex flex-col gap-2 tracking-wider leading-relaxed">
+						<p className="font-semibold">Growing your Supporters</p>
+						<p className="">
+							Read more to know what measure you can take to grow your
+							supporters.
+						</p>
+						<div className="flex gap-2 justify-start items-center text-center">
+							<div className="flex -space-x-4">
+								<Image
+									src="/assets/arturopog.png"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+
+								<Image
+									src="/assets/ai1.jpg"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+							</div>
+
+							<p className="text-gray-400">By Virtousa and 2 others</p>
+							<p className="font-bold text-gray-400">.</p>
+							<p className="text-gray-400">4 articles</p>
+						</div>
+					</div>
+				</div>
+				<div className="w-[900px] border flex  gap-10 px-10 py-5 rounded-md hover:border-black ease-in-out duration-300">
+					<Image
+						src="/assets/connection.png"
+						alt="logo"
+						width={50}
+						height={50}
+						priority
+						className="object-contain cursor-pointer"
+					/>
+					<div className="flex flex-col gap-2 tracking-wider leading-relaxed">
+						<p className="font-semibold">Launching your Membership</p>
+						<p className="">
+							Get the complete context on what membership is and how to earn
+							with memberships.
+						</p>
+						<div className="flex gap-2 justify-start items-center text-center">
+							<div className="flex -space-x-4">
+								<Image
+									src="/assets/arturopog.png"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+								<Image
+									src="/assets/arturo2.jpg"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+								<Image
+									src="/assets/ai1.jpg"
+									alt="profile"
+									width={35}
+									height={35}
+									priority
+									className="object-cover cursor-pointer rounded-full border-black"
+								/>
+							</div>
+
+							<p className="text-gray-400">By Virtousa and 2 others</p>
+							<p className="font-bold text-gray-400">.</p>
+							<p className="text-gray-400">9 articles</p>
+						</div>
+					</div>
+				</div>
+				<div className="flex flex-col gap-10 justify-center items-center text-center mb-20 mt-10">
+					<Image
+						src="/assets/bmc-full-logo-no-background.png"
+						alt="logo"
+						width={200}
+						height={200}
+						priority
+						className="object-contain cursor-pointer"
+					/>
+					<div className="flex justify-center items-center text-center gap-5 text-gray-400 text-xs">
+						<Link href="/">FAQ</Link>
+						<Link href="/">Email Support</Link>
+						<Link href="/">Go back to Buy Me a Coffee</Link>
+					</div>
+					<div className="flex justify-center items-center gap-5 ">
+						<Image
+							src="/assets/facebook.png"
+							alt="logo"
+							width={20}
+							height={20}
+							priority
+							className="object-contain"
+						/>
+						<Image
+							src="/assets/twitter.png"
+							alt="logo"
+							width={20}
+							height={20}
+							priority
+							className="object-contain"
+						/>
+						<Image
+							src="/assets/linkedin.png"
+							alt=""
+							width={20}
+							height={20}
+							priority
+							className="object-contain"
+						/>
+					</div>
+					<p className="text-xs text-gray-400 cursor-pointer">
+						We run on intercom
+					</p>
+				</div>
+			</section>
 		</main>
 	);
 };
