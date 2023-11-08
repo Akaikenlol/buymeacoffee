@@ -87,7 +87,7 @@ const Card = () => {
 			</div>
 			<div className="flex justify-center items-center text-center flex-col  rounded-md max-w-[300px] gap-5 p-5 cursor-pointer">
 				<Image
-					src="/assets/ai4.jpg"
+					src="/assets/pog.png"
 					alt="user"
 					priority
 					width={200}
@@ -96,8 +96,8 @@ const Card = () => {
 				/>
 
 				<p>
-					<span className="font-bold">Hoshino Ai</span> is a well known idols
-					among peoples.
+					<span className="font-bold">Pog Cat</span> is a strange species, kinda
+					pog.
 				</p>
 
 				<div className="flex justify-center items-center text-center gap-5">

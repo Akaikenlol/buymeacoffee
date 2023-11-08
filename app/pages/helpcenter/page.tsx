@@ -7,14 +7,17 @@ const Page = () => {
 		<main>
 			<section className="bg-amber-300  w-full mb-10 flex justify-between items-center text-center flex-col">
 				<div className="flex justify-between items-center text-center w-[900px]  gap-96 px-5 mt-5 mb-10">
-					<Image
-						src="/assets/bmc-full-logo-no-background.png"
-						alt="logo"
-						width={200}
-						height={200}
-						priority
-						className="object-contain cursor-pointer"
-					/>
+					<Link href="/">
+						<Image
+							src="/assets/bmc-full-logo-no-background.png"
+							alt="logo"
+							width={200}
+							height={200}
+							priority
+							className="object-contain cursor-pointer"
+						/>
+					</Link>
+
 					<div className="flex gap-10 text-white text-sm font-semibold">
 						<Link
 							href="/"
@@ -205,7 +208,7 @@ const Page = () => {
 						className="object-contain cursor-pointer"
 					/>
 					<div className="flex justify-center items-center text-center gap-5 text-gray-400 text-xs">
-						<Link href="/">FAQ</Link>
+						<Link href="/pages/faq">FAQ</Link>
 						<Link href="/">Email Support</Link>
 						<Link href="/">Go back to Buy Me a Coffee</Link>
 					</div>
