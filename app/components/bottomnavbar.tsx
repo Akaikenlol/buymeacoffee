@@ -4,8 +4,8 @@ import React from "react";
 
 const Bottomnavbar = () => {
 	return (
-		<div className="flex justify-center items-center text-center gap-96 mb-10">
-			<div className="flex gap-5 justify-center items-center text-center font-bold ">
+		<div className="flex flex-col md:flex-row justify-center items-center text-center gap-5 mb-10 w-full max-w-screen-xl md:w-[800px]">
+			<div className="flex flex-col md:flex-row  gap-5 justify-center items-center text-center font-semibold flex-grow">
 				<Link
 					href="/pages/about"
 					className="hover:text-gray-400 ease-in-out duration-300"
@@ -43,7 +43,7 @@ const Bottomnavbar = () => {
 					Terms
 				</Link>
 			</div>
-			<div className="flex gap-5 justify-center items-center text-center">
+			<div className="flex gap-5 justify-center items-center text-center mt-5 md:mt-0">
 				<div className="flex gap-1">
 					<Image
 						src="/assets/copyright.png"

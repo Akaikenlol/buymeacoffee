@@ -3,7 +3,7 @@ import React from "react";
 
 const Card = () => {
 	return (
-		<div className="grid  grid-cols-4  mb-10 ">
+		<div className="grid  grid-cols-1 md:grid-cols-4 mb-10 ">
 			<div className="flex justify-center items-center text-center flex-col  rounded-md max-w-[300px] gap-5 p-5 cursor-pointer">
 				<Image
 					src="/assets/arturopog.png"
