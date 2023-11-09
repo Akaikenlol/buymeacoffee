@@ -28,7 +28,7 @@ const Search = () => {
 						<Link href="/pages/login">Log in</Link>
 					</button>
 					<button className="bg-yellow-300 rounded-full py-2 px-3 text-center hover:scale-105 ease-in-out duration-300 font-bold">
-						Sign up
+						<Link href="/pages/signup">Sign up</Link>
 					</button>
 				</div>
 			</div>
