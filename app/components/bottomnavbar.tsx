@@ -51,7 +51,7 @@ const Bottomnavbar = () => {
 						width={15}
 						height={15}
 						priority
-						className="object-contain "
+						className="object-contain w-auto h-auto"
 					/>
 					<p>Buy Me a Coffee</p>
 				</div>

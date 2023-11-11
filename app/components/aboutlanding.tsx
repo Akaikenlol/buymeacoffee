@@ -7,11 +7,11 @@ const Aboutlanding = () => {
 		<div className="bg-amber-50 w-full flex justify-center flex-col items-center">
 			<section className="bg-amber-50  w-full mb-10 flex justify-center items-center text-justify flex-col">
 				<Search />
-				<h1 className="text-5xl  font-bold tracking-wide leading-tight w-[900px]">
+				<h1 className="text-2xl md:text-5xl font-bold tracking-wide leading-tight w-[300px] md:w-[900px]">
 					We believe almost everyone will work for themselves in the future—our
 					mission is to empower individuals to achieve that.
 				</h1>
-				<div className="flex justify-center items-center gap-16">
+				<div className="flex flex-col md:flex-row justify-center items-center gap-0 md:gap-16 ">
 					<Image
 						src="/assets/amd.png"
 						alt="logo"
@@ -54,16 +54,16 @@ const Aboutlanding = () => {
 					/>
 				</div>
 			</section>
-			<section className="bg-white w-full flex flex-col justify-center items-center text-justify">
+			<section className="bg-white w-full flex flex-col justify-center items-center text-justify p-5 md:p-0">
 				<Image
 					src="/assets/about-bg.png"
 					alt="bg"
 					width={800}
 					height={800}
 					priority
-					className="object-contain w-[50%] h-[50%] mt-10"
+					className="object-contain w-auto h-auto md:w-[50%] md:h-[50%] mt-10"
 				/>
-				<div className="w-[750px] flex flex-col justify-center items-center gap-10">
+				<div className="w-full md:w-[750px] flex flex-col justify-center items-center gap-10">
 					<h1 className="tracking-wide leading-loose mt-10">
 						<span className="font-bold text-4xl ">W</span>
 						hen we started designing Buy Me a Coffee in 2017, our goal was to
@@ -98,13 +98,13 @@ const Aboutlanding = () => {
 								width={100}
 								height={100}
 								priority
-								className="object-contain items-start "
+								className="object-contain items-start w-auto h-auto"
 							/>
 						</div>
 					</h1>
 				</div>
-				<div className="border w-[750px] flex items-center justify-evenly mb-20 mt-10">
-					<div className="flex flex-col">
+				<div className="border w-full md:w-[750px] flex flex-col md:flex-row items-center md:justify-evenly mb-20 mt-10">
+					<div className="flex flex-col justify-center items-center">
 						<h1 className="text-gray-400 mt-5">Official payment partner</h1>
 						<Image
 							src="/assets/storyset.png"
@@ -115,7 +115,7 @@ const Aboutlanding = () => {
 							className="object-contain"
 						/>
 					</div>
-					<div className="border h-[50px] flex " />
+					<div className="border md:h-[50px] flex w-full md:w-0" />
 					<div className="flex flex-col">
 						<h1 className="text-gray-400 mt-5">Backed by</h1>
 						<Image

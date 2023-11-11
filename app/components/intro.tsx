@@ -25,7 +25,7 @@ const Intro = () => {
 						height={800}
 						quality={100}
 						priority
-						className="object-contain"
+						className="object-contain w-auto h-auto"
 					/>
 				</div>
 			</section>
@@ -50,7 +50,7 @@ const Intro = () => {
 						height={800}
 						quality={100}
 						priority
-						className="object-contain"
+						className="object-contain w-auto h-auto"
 					/>
 				</div>
 			</section>
@@ -76,7 +76,7 @@ const Intro = () => {
 						height={800}
 						quality={100}
 						priority
-						className="object-contain"
+						className="object-contain w-auto h-auto"
 					/>
 				</div>
 			</section>

@@ -92,7 +92,7 @@ const Card = () => {
 					priority
 					width={200}
 					height={200}
-					className="object-cover rounded-md hover:scale-105 ease-in-out duration-200"
+					className="object-cover rounded-md hover:scale-105 ease-in-out duration-200 w-auto h-auto"
 				/>
 
 				<p>
