@@ -6,12 +6,12 @@ const Terms = () => {
 		<div className="bg-amber-50 w-full flex justify-center flex-col items-center">
 			<section className="bg-amber-50  w-full mb-10 flex justify-center items-center text-center flex-col">
 				<Search />
-				<h1 className="text-5xl  font-bold tracking-wide leading-tight">
+				<h1 className="md:text-5xl text-2xl font-bold tracking-wide leading-tight">
 					Terms of use
 				</h1>
 			</section>
 			<section className="bg-white w-full flex flex-col justify-center items-center text-justify">
-				<div className="w-[750px] flex flex-col justify-center items-center gap-10 mt-10 mb-10">
+				<div className="md:w-[750px] w-full md:p-0 p-5 flex flex-col justify-center items-center gap-10 mt-10 mb-10">
 					<h1 className="tracking-wide leading-loose mb-5">
 						Welcome to Buy Me a Coffee, this page explains our terms of use.
 						When you use Buy Me a Coffee, you’re agreeing to all the rules on
@@ -19,7 +19,9 @@ const Terms = () => {
 						we’ve done our best to offer you clear and simple explanations of
 						what everything means.
 					</h1>
-					<h1 className="font-bold text-5xl">About Creating an Account</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">
+						About Creating an Account
+					</h1>
 					<h1 className="tracking-wide leading-loose">
 						To sign up for a Buy Me a Coffee account, you need to be 18 or over.
 						You’re responsible for your account and all the activity on it. You
@@ -43,7 +45,7 @@ const Terms = () => {
 						old enough to form a binding contract where you live. If necessary,
 						we may ask you for proof of age.
 					</h1>
-					<h1 className="font-bold text-5xl">Account deletion</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">Account deletion</h1>
 					<h1 className="tracking-wide leading-loose mb-5">
 						You may stop using our Service, by contacting Buy Me a Coffee at{" "}
 						<span className="font-bold hover:underline ease-in-out duration-300 cursor-pointer">
@@ -62,7 +64,9 @@ const Terms = () => {
 						subscription. Merely deleting your account without canceling your
 						subscription will not stop these payments.
 					</h1>
-					<h1 className="font-bold text-5xl">About dispute resolution</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">
+						About dispute resolution
+					</h1>
 					<h1 className="tracking-wide leading-loose mb-5">
 						We at Buy Me a Coffee encourage you to contact us if you’re having
 						an issue, before resorting to the courts. In the unfortunate
@@ -74,7 +78,7 @@ const Terms = () => {
 						Transaction Act or the United Nations Convention of Controls for
 						International Sale of Goods.
 					</h1>
-					<h1 className="font-bold text-5xl">About copyright</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">About copyright</h1>
 					<h1 className="tracking-wide leading-loose mb-5">
 						The Digital Millennium Copyright Act lays out a system of legal
 						requirements for dealing with allegations of copyright infringement.
@@ -85,7 +89,9 @@ const Terms = () => {
 						terminate accounts for repeat infringers. (We do this when
 						appropriate and at our sole discretion.)
 					</h1>
-					<h1 className="font-bold text-5xl">Agreement Between You & Us</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">
+						Agreement Between You & Us
+					</h1>
 					<h1 className="tracking-wide leading-loose mb-5">
 						These Terms are the entire agreement between You and Buy Me a Coffee
 						with respect to the Services. They supersede all other

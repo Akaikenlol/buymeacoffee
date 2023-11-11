@@ -7,12 +7,12 @@ const Privacy = () => {
 		<div className="bg-amber-50 w-full flex justify-center flex-col items-center">
 			<section className="bg-amber-50  w-full mb-10 flex justify-center items-center text-center flex-col">
 				<Search />
-				<h1 className="text-5xl  font-bold tracking-wide leading-tight">
+				<h1 className="md:text-5xl text-2xl font-bold tracking-wide leading-tight">
 					Privacy Policy
 				</h1>
 			</section>
 			<section className="bg-white w-full flex flex-col justify-center items-center text-justify ">
-				<div className="w-[750px] flex flex-col justify-center items-center gap-10 mt-10 mb-10">
+				<div className="md:w-[750px] w-full md:p-0 p-5 flex flex-col justify-center items-center gap-10 mt-10 mb-10">
 					<h1 className="tracking-wide leading-loose">
 						Buy Me a Coffee is a platform for creators to accept support from
 						their audience and share exclusive content. At Buy Me a Coffee, your
@@ -28,7 +28,7 @@ const Privacy = () => {
 						privacy regarding any information we may collect while operating our
 						website.
 					</h1>
-					<h1 className="font-bold text-5xl">Website Visitor</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">Website Visitor</h1>
 					<h1 className="tracking-wide leading-loose mb-5">
 						Like most website operators, Buy Me a Coffee collects
 						non-personally-identifying information of the sort that web browsers
@@ -52,7 +52,7 @@ const Privacy = () => {
 						the administrators of Buy Me a Coffee and is handled by payment
 						processors at the time of processing the payments.
 					</h1>
-					<h1 className="font-bold text-5xl">Payment</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">Payment</h1>
 					<h1 className="tracking-wide leading-loose">
 						To make a payment to a creator on Buy Me a Coffee, you have to
 						provide our payment processor (Stripe) with your payment
@@ -66,7 +66,9 @@ const Privacy = () => {
 						the level at which you support them, what rewards you receive and
 						how often you support them.
 					</h1>
-					<h1 className="font-bold text-5xl">International Users</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">
+						International Users
+					</h1>
 					<h1 className="tracking-wide leading-loose">
 						Buy Me a Coffee is based in the United States. If you are accessing
 						our Services from the European Union or other regions with laws
@@ -86,7 +88,9 @@ const Privacy = () => {
 						transfer of your information to the United States and processing
 						globally in accordance with this Privacy Policy.
 					</h1>
-					<h1 className="font-bold text-5xl">Privacy Policy Changes</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">
+						Privacy Policy Changes
+					</h1>
 					<h1 className="tracking-wide leading-loose mb-5">
 						Although most changes are likely to be minor, Buy Me a Coffee may
 						change its Privacy Policy from time to time, and in Buy Me a
@@ -103,7 +107,7 @@ const Privacy = () => {
 						changes. Your continued use of this site after any change in this
 						Privacy Policy will constitute your acceptance of such change.
 					</h1>
-					<h1 className="font-bold text-5xl">Contact Us</h1>
+					<h1 className="font-bold md:text-5xl text-2xl">Contact Us</h1>
 					<h1 className="tracking-wide leading-loose">
 						Please feel free to contact us if you have any questions about Buy
 						Me a Coffee’s Privacy Policy or the information practices.
