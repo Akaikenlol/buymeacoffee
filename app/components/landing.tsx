@@ -4,7 +4,7 @@ const Landing = () => {
 	return (
 		<main className="w-full flex flex-col items-center justify-center gap-24 mb-36">
 			<div className="max-w-screen-xl w-full md:w-[800px] flex flex-col gap-5 justify-center items-center text-center">
-				<h1 className="font-bold text-3xl md:text-5xl text-center tracking-wide leading-tight">
+				<h1 className="font-bold text-3xl md:text-5xl text-center tracking-wide leading-tight text-yellow-300">
 					A supporter is worth a thousand followers.
 				</h1>
 				<div className="w-full  md:w-[650px]">
